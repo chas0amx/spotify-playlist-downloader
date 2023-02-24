@@ -11,7 +11,7 @@ const spotifyApi = new SpotifyWebApi({
 // Authenticate with the Spotify API and retrieve an access token
 spotifyApi.clientCredentialsGrant()
   .then(data => {
-    console.log('The access token is ' + data.body['access_token']);
+    // console.log('The access token is ' + data.body['access_token']);
 
     // Set the access token on the Spotify Web API object
     spotifyApi.setAccessToken(data.body['access_token']);

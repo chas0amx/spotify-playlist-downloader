@@ -28,3 +28,6 @@ download:
 # Remove the Docker image
 clean:
 	docker rmi $(IMAGE_NAME):$(IMAGE_TAG)
+
+# Default goal
+.DEFAULT_GOAL := download
