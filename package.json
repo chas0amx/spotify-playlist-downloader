@@ -1,0 +1,13 @@
+{
+    "name": "spotify-downloader",
+    "version": "1.0.0",
+    "description": "Download Spotify playlist data",
+    "main": "index.js",
+    "dependencies": {
+      "spotify-web-api-node": "^5.0.1"
+    },
+    "scripts": {
+      "start": "node index.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    }
+  }
